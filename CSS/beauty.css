@@ -282,7 +282,7 @@ body {
 {
 	display: flex;
     margin-right: 10%;
-    justify-content: center;
+    justify-content: space-around;
 	flex-direction: column;
 	
 }
@@ -358,7 +358,83 @@ body {
     text-align: center;
 }
 
+/*Entamons la cinquieme slide*/
 
+.slider__slide .contenue1
+{
+	display: flex;
+    justify-content: space-around;
+	flex-direction: column;
+	
+}
+
+.slider__slide .contenue1 h1
+{
+    color:rgb(235, 185, 23);
+	position: absolute;
+	top: 5%;
+    left: 40%;
+    font-size: 3rem;
+}
+
+.slider__slide .contenue1 .text3 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider__slide .contenue1 .text3 .group
+{
+	width: 35%;
+    margin: 5%;
+}
+
+.slider__slide .contenue1 .text3 .group a
+{
+	text-decoration: none;
+	color:rgb(235, 185, 23) ;
+}
+
+.slider__slide .contenue1 .group img
+{
+	width: 100%;
+	height: 150px;
+}
+
+.slider__slide .contenue .group p
+{
+	font-weight: normal;
+    margin-right: 2%;
+}
+
+.slider__slide .liens
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.slider__slide .liens p
+{
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+}
+
+.slider__slide .liens a
+{
+    text-decoration: none;
+    color:rgb(235, 185, 23) ;
+    font-size: 5rem;
+}
+
+.liens h1
+{
+    color: whitesmoke ;
+    margin-bottom:  15%;
+    text-align: center;
+}
 
 
 
