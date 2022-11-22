@@ -62,7 +62,6 @@ body {
 }
 
 
-
 /* Que dire de ses boutons enervant rien de spécials puis que tout ce fait sur la page script js   */
 
 .slider__nav-button {
@@ -132,6 +131,79 @@ body {
     background-color: rgb(235, 185, 23);;
     border: 1px #333 solid;
 }
+
+/* et si on rendre les contenues de notre premiers slide magique?  */
+
+.slider__slide .photo
+{
+	display: flex;
+	width: 100%;
+}
+
+.slider__slide .photo img
+{
+	width: 30%;
+}
+
+.slider__slide .photo .circle img
+{
+	margin-top: 30%;
+	margin-left: 15%;
+	width: 70%;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.slider__slide .text
+{
+	margin-top: -4%;
+	text-align: center;
+}
+
+.slider__slide .text p
+{
+	color:rgb(235, 185, 23);
+}
+
+
+.slider__slide.active {
+    opacity: 1;
+	display: flex;
+	margin: 0%;
+	padding-left: 3%;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 640px) {
