@@ -207,15 +207,7 @@ body {
 }
 
 /*lui il appartier au dernier slide chouchou*/
-.slider__slide .triangle2 img
-{
-	width: 250px;
-	height: 190px;
-	position: absolute;
-	top: 2%;
-	right: 1%;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-} 
+
 
 .slider__slide .text1
 {
@@ -329,34 +321,7 @@ body {
     margin-right: 2%;
 }
 
-.slider__slide .liens
-{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    justify-content: space-around;
-}
 
-.slider__slide .liens p
-{
-    display: flex;
-    margin: 2%;
-    justify-content: space-around;
-}
-
-.slider__slide .liens a
-{
-    text-decoration: none;
-    color:rgb(235, 185, 23) ;
-    font-size: 5rem;
-}
-
-.liens h1
-{
-    color: whitesmoke ;
-    margin-bottom:  15%;
-    text-align: center;
-}
 
 /*Entamons la cinquieme slide*/
 
@@ -407,6 +372,46 @@ body {
     margin-right: 2%;
 }
 
+
+/*enfin j'ai cru que j'allais y rester slide 6*/
+
+.slider__slide .image img
+{
+    width: 250px;
+	height: 190px;
+	position: absolute;
+	bottom: 2%;
+	right: 4%;
+	transform: rotate(-180deg);
+}
+
+.slider__slide .image1 img
+{
+    width: 250px;
+	height: 190px;
+	position: absolute;
+	bottom: 2%;
+	left: 1%;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.slider__slide .image2 img
+{
+	width: 250px;
+	height: 190px;
+	position: absolute;
+	top: 2%;
+	right: 4%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+} 
+.slider__slide .image3 img
+{
+    width: 250px;
+	height: 190px;
+	position: absolute;
+	top: 2%;
+	left: 1%;
+}
 .slider__slide .liens
 {
     display: flex;
@@ -432,9 +437,14 @@ body {
 .liens h1
 {
     color: whitesmoke ;
-    margin-bottom:  15%;
+    position: absolute;
+    top: 7%;
+    left: 40%;
     text-align: center;
 }
+
+
+
 
 
 
