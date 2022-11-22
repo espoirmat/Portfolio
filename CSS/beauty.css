@@ -235,6 +235,47 @@ body {
 }
 
 
+/*Entamons la Troiseme slide*/
+
+.slider__slide .triangle3
+{
+	display: flex;
+	margin: 5%;
+}
+
+.slider__slide .triangle3 .ligne
+{
+	width: 240px;
+	height: 10px;
+	background-color:rgb(235, 185, 23) ;
+	margin-top: -10%;
+    margin-left: 20%;
+}
+
+.slider__slide .triangle3 img
+{
+	width: 40%;
+    margin: 3%;
+	height: 490px;
+}
+
+.slider__slide .triangle3 p
+{
+	margin-top: 7%;
+	font-weight: lighter;
+}
+
+.slider__slide .triangle3 .text2 h1
+{
+	color:white;
+	margin-bottom: 10%;
+    margin-left: 20%;
+}
+
+.slider__slide img {
+  width: 100%;
+}
+
 
 
 
