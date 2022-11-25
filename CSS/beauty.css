@@ -484,8 +484,8 @@ body {
     .slider__slide .photo .circle img
     {
         position: absolute;
-        top: 3%;
-        right: 6%;
+        top: 9%;
+        left: 9%;
         display: block;
         width: 150px;
         height: 150px;
@@ -495,8 +495,8 @@ body {
     .slider__slide .text
     {
         position: absolute;
-        top: 37%;
-        right: 75%;
+        top: 30%;
+        right: 3%;
         font-size: 1rem;
         margin: 0;
         text-align: center;
@@ -515,16 +515,14 @@ body {
 
     .slider__slide .text1 h1
     {
-        margin: 5%;
-        position: relative;
-        font-size: 2rem;
-        text-align: left;
+      display: none;
     }
 
     .slider__slide .text1 p
     {
         position: relative;
         font-size: 1rem;
+        margin-top: -100px;
         text-align: justify;
     }
 
@@ -536,11 +534,7 @@ body {
 
     .slider__slide .triangle3 .ligne
     {
-        width: 190px;
-        height: 4px;
-        background-color:rgb(235, 185, 23) ;
-        margin-top: 1%;
-        margin-left: 10%;
+        display: none;
     }
 
     .slider__slide .triangle3 img

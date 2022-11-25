@@ -1,5 +1,5 @@
 
-if (window.matchMedia("(min-width: 301px)").matches) 
+if (window.matchMedia("(min-width: 401px)").matches) 
 {
     let slides = document.getElementsByClassName("slider__slide");
     let navlinks = document.getElementsByClassName("slider__navlink");
