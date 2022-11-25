@@ -441,6 +441,7 @@ body {
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
         padding: 0%;
         background: rgba(0, 0, 0, 0);
         justify-content: space-around;
@@ -454,7 +455,8 @@ body {
         padding: 0%;
     }
 
-    .slider__nav-button {
+    .slider__nav-button
+    {
         display: none;
     }
     
@@ -510,8 +512,17 @@ body {
 
     .slider__slide .text1 h1
     {
-        top: 0%;
+        margin: 5%;
+        position: relative;
         font-size: 2rem;
+        text-align: left;
+    }
+
+    .slider__slide .text1 p
+    {
+        position: relative;
+        font-size: 1rem;
+        text-align: justify;
     }
 
  
