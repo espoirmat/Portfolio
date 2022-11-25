@@ -445,33 +445,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 640px) {
   .slider__nav-button {
     height: 40px;
@@ -481,4 +454,10 @@ body {
     height: 12px;
     width: 12px;
   }
+}
+
+
+@media screen and (max-width: 600px) 
+{
+
 }
