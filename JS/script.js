@@ -35,7 +35,7 @@ if (window.matchMedia("(min-width: 401px)").matches)
     })
 } else
 {
-    alert("PAge en desous de 600px");
+   
 }
 
 
