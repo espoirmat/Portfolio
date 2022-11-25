@@ -57,7 +57,6 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.514);
-    transition: 1s;
     opacity: 0;
 }
 
@@ -185,16 +184,6 @@ body {
 	left: 1%;
 }
 
-/*lui il appartier au dernier slide chouchou*/
-.slider__slide .triangle4 img
-{
-	width: 250px;
-	height: 190px;
-	position: absolute;
-	bottom: 2%;
-	left: 1%;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-}
 
 .slider__slide .triangle1 img
 {
@@ -204,17 +193,6 @@ body {
 	bottom: 2%;
 	right: 3%;
 	transform: rotate(-180deg);
-}
-
-/*lui il appartier au dernier slide chouchou*/
-
-
-.slider__slide .text1
-{
-	margin-left: 3% ;
-    margin-right: 8%;
-	text-align: center;
-    font-weight: lighter;
 }
 
 .slider__slide .text1 h1
@@ -459,5 +437,82 @@ body {
 
 @media screen and (max-width: 600px) 
 {
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        background: rgba(0, 0, 0, 0);
+        justify-content: space-around;
+    }
 
+    .slider {
+        display: flex;
+        flex-direction: column;
+        overflow: initial;
+        height: 0vh;
+        padding: 0%;
+    }
+
+    .slider__nav-button {
+        display: none;
+    }
+    
+    .slider__navlink
+    {
+        display: none;
+    }
+    .slider__slide
+    {
+        position: relative;
+        height: 20%;
+        padding: 0%;
+        display: flex;
+        justify-content: space-around;
+        opacity: 100%;
+    }
+
+    .slider__slide .photo img
+    {
+        display: none;
+    }
+
+    .slider__slide .photo .circle img
+    {
+        position: absolute;
+        top: 3%;
+        right: 6%;
+        display: block;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .slider__slide .text
+    {
+        position: absolute;
+        top: 37%;
+        right: 75%;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .slider__slide .triangle img
+    {
+        display: none;
+      
+    }
+
+
+    .slider__slide .triangle1 img
+    {
+       display: none;
+    }
+
+    .slider__slide .text1 h1
+    {
+        top: 0%;
+        font-size: 2rem;
+    }
+
+ 
 }
