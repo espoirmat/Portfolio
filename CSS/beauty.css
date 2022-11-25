@@ -468,8 +468,9 @@ body {
     {
         position: relative;
         width: 100%;
-        height: 19%;
+        height: 300px;
         padding: 0%;
+        margin: 0%;
         display: flex;
         justify-content: space-around;
         opacity: 100%;
@@ -496,7 +497,8 @@ body {
         position: absolute;
         top: 37%;
         right: 75%;
-        font-size: 0.7rem;
+        font-size: 1rem;
+        margin: 0;
         text-align: center;
     }
     .slider__slide .triangle img
@@ -550,6 +552,7 @@ body {
     {
         margin-top: 15%;
         font-weight: lighter;
+        font-size: 1rem;
     }
 
     .slider__slide .triangle3 .text2 h1
@@ -560,10 +563,134 @@ body {
         font-size: 2rem;
     }
 
-    .slider__slide img {
-    width: 100%;
+    .slider__slide .contenue
+    {
+        display: flex;
+        position: absolute;
+        top: 10%;
+        flex-direction: row;
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        
     }
 
-    
- 
+    .slider__slide .contenue h1
+    {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .slider__slide .contenue .text3
+    {
+        width: 100%;
+        position: absolute;
+        top: 2%;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
+    .slider__slide .contenue .text3 .group
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .slider__slide .contenue .group img
+    {
+        width: 30%;
+        height: 100px;
+    }
+
+    .slider__slide .contenue .group p
+    {
+        margin: 2%;
+    }
+
+    .slider__slide .contenue1 .text3 .group
+    {
+        width: 10%;
+        margin-top: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider__slide .contenue1 h1
+    {
+        margin-top: 30%;
+    }
+
+    .slider__slide .contenue1 .text3
+    {
+        width: 100%;
+    }
+
+    .slider__slide .contenue1 .text3 .group
+    {
+        width: 15%;
+    }
+
+
+    .slider__slide .liens
+    {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .slider__slide .liens a
+    {
+        font-size: 2rem;
+        margin: 5%;
+    }
+
+    .liens h1
+    {
+        left: 10%;
+        text-align: center;
+    }
+
+    .slider__slide .image img
+    {
+        width: 250px;
+        height: 190px;
+        position: absolute;
+        bottom: 1%;
+        right: 2%;
+        transform: rotate(-180deg);
+    }
+
+    .slider__slide .image1 img
+    {
+        width: 250px;
+        height: 190px;
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+
+    .slider__slide .image2 img
+    {
+        width: 250px;
+        height: 190px;
+        position: absolute;
+        top: 1%;
+        right: 2%;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    } 
+    .slider__slide .image3 img
+    {
+        width: 250px;
+        height: 190px;
+        position: absolute;
+        top: 1%;
+        left: 1%;
+    }
+
 }
