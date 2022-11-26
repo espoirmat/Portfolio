@@ -440,6 +440,7 @@ body {
 {
     .container
     {
+        font-family: 'Times New Roman', Times, serif;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -454,6 +455,7 @@ body {
         overflow: initial;
         height: 0vh;
         padding: 0%;
+        width: 94%;
         background: transparent;
     }
 
