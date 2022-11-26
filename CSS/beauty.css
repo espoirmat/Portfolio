@@ -532,7 +532,8 @@ body {
     {
         position: relative;
         font-size: 1rem;
-        margin-top: -86px;
+        margin-top: -94px;
+        margin: 0px;
         text-align: justify;
     }
 
