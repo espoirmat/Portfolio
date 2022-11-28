@@ -506,7 +506,7 @@ body {
     {
         position: absolute;
         top: 20%;
-        right: 10%;
+        right: 13%;
         font-size: 1rem;
         margin: 0;
         text-align: center;
@@ -592,7 +592,7 @@ body {
     .slider__slide .contenue h1
     {
         position: absolute;
-        top: -40px;
+        top: -50px;
         font-size: 2rem;
     }
 
@@ -636,7 +636,7 @@ body {
 
     .slider__slide .contenue1 h1
     {
-        margin-top: 230px;
+        margin-top: 250px;
         margin-left: -75px;
         font-size: 2rem;
     }
